@@ -85,6 +85,7 @@
 	perks = list(/datum/perk/selfmedicated)
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
+							/datum/computer_file/program/suit_sensors,
 							/datum/computer_file/program/chem_catalog,
 							/datum/computer_file/program/camera_monitor)
 
