@@ -41,6 +41,7 @@
 	icon_state = "oracarpet"
 	initial_flooring = /decl/flooring/carpet/oracarpet
 
+<<<<<<< HEAD
 /turf/simulated/floor/carpet/space_carpet
 	name = "space carpet"
 	icon_state = "space_carpet"
@@ -50,6 +51,8 @@
 	icon_state = "[((x + y) ^ ~(x * y) + z) % 25]"
 	layer = 0.1
 
+=======
+>>>>>>> parent of 984e29cb7 (holofloor to carpet)
 /*Grid*/
 
 /turf/simulated/floor/bluegrid
