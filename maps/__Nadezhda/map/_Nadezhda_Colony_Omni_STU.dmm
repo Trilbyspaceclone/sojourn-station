@@ -5630,6 +5630,9 @@
 "bfA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
 /obj/item/modular_computer/console/preset/crew_cams/camera,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/eris/crew_quarters/plasma_tag)
 "bfB" = (
@@ -16025,6 +16028,9 @@
 "djV" = (
 /obj/machinery/atmospherics/unary/vent_pump,
 /obj/item/modular_computer/console/preset/crew_cams/camera,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/eris/crew_quarters/plasma_tag)
 "djZ" = (
@@ -26016,6 +26022,13 @@
 /area/nadezhda/rnd/docking{
 	name = "\improper Upper Research Hallway"
 	})
+"fgh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/orangecorner,
+/area/eris/crew_quarters/plasma_tag)
 "fgi" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8
@@ -53509,6 +53522,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/pros/prep)
+"kqy" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/orangecorner,
+/area/eris/crew_quarters/plasma_tag)
 "kqI" = (
 /obj/structure/table/standard,
 /obj/item/device/camera,
@@ -75339,6 +75356,13 @@
 	name = "murky water"
 	},
 /area/nadezhda/maintenance/undergroundfloor1north)
+"ouu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/bluecorner,
+/area/eris/crew_quarters/plasma_tag)
 "ouv" = (
 /obj/structure/sign/faction/neotheology_cross/gold{
 	pixel_y = 32
@@ -107184,6 +107208,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/nadezhda/medical/virology)
+"uzu" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/bluecorner,
+/area/eris/crew_quarters/plasma_tag)
 "uzw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -148999,7 +149027,7 @@ fEg
 lJS
 xYn
 xYn
-xYn
+uzu
 fEg
 hyP
 pwx
@@ -150210,7 +150238,7 @@ yhC
 fEg
 fEg
 fEg
-sZM
+ouu
 yah
 vot
 rNr
@@ -151422,7 +151450,7 @@ yhC
 fEg
 fEg
 fEg
-jWB
+fgh
 rAk
 gZn
 tmR
@@ -152635,7 +152663,7 @@ fEg
 jbf
 xfL
 xfL
-xfL
+kqy
 fEg
 pZU
 cwr
