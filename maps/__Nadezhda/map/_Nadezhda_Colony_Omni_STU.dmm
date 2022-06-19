@@ -1771,6 +1771,13 @@
 /obj/structure/flora/small/bushc3,
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
+"arW" = (
+/obj/structure/closet/lasertag/yellow,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/bluecorner,
+/area/eris/crew_quarters/plasma_tag)
 "arY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/spline/plain{
@@ -5624,6 +5631,9 @@
 "bfA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
 /obj/item/modular_computer/console/preset/crew_cams/camera,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/eris/crew_quarters/plasma_tag)
 "bfB" = (
@@ -15965,6 +15975,9 @@
 "djV" = (
 /obj/machinery/atmospherics/unary/vent_pump,
 /obj/item/modular_computer/console/preset/crew_cams/camera,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/eris/crew_quarters/plasma_tag)
 "djZ" = (
@@ -32432,6 +32445,13 @@
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/nadezhda/rnd/xenobiology)
+"gnS" = (
+/obj/structure/table/bench/standard,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/gray_perforated,
+/area/eris/crew_quarters/plasma_tag)
 "gnT" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -33922,6 +33942,13 @@
 	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/crew_quarters/barquarters)
+"gCQ" = (
+/obj/structure/table/bench/standard,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/gray_perforated,
+/area/eris/crew_quarters/plasma_tag)
 "gCW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/green{
@@ -49401,6 +49428,10 @@
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/command/merchant)
+"jFh" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/bluecorner,
+/area/eris/crew_quarters/plasma_tag)
 "jFi" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
@@ -58503,6 +58534,12 @@
 /obj/effect/floor_decal/industrial/hatch,
 /turf/simulated/floor/rock/manmade/road,
 /area/nadezhda/outside/meadow)
+"llT" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/orangecorner,
+/area/eris/crew_quarters/plasma_tag)
 "llU" = (
 /obj/effect/window_lwall_spawn/reinforced/polarized{
 	id = "serg"
@@ -81916,6 +81953,10 @@
 /obj/effect/floor_decal/industrial/warningred,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/captain)
+"pIC" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/orangecorner,
+/area/eris/crew_quarters/plasma_tag)
 "pID" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/gray_platform,
@@ -82021,6 +82062,12 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/xenobiology/xenoflora)
+"pJI" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/bluecorner,
+/area/eris/crew_quarters/plasma_tag)
 "pJJ" = (
 /obj/structure/flora/big/bush2,
 /turf/simulated/floor/asteroid/dirt,
@@ -148669,7 +148716,7 @@ yhC
 yhC
 yhC
 lQl
-lQl
+gCQ
 lQl
 fEg
 naK
@@ -148877,7 +148924,7 @@ fEg
 lJS
 xYn
 xYn
-xYn
+jFh
 fEg
 hyP
 pwx
@@ -150088,7 +150135,7 @@ yhC
 fEg
 fEg
 fEg
-xYn
+pJI
 xhL
 vot
 rNr
@@ -151300,7 +151347,7 @@ yhC
 fEg
 fEg
 fEg
-xfL
+llT
 rAk
 gZn
 tmR
@@ -152513,7 +152560,7 @@ fEg
 jbf
 xfL
 xfL
-xfL
+pIC
 fEg
 jVE
 cwr
@@ -152709,7 +152756,7 @@ yhC
 yhC
 yhC
 lQl
-lQl
+gnS
 lQl
 fEg
 vnR
@@ -153522,7 +153569,7 @@ xYn
 fEg
 rpo
 rpo
-rpo
+arW
 rpo
 fEg
 cwr
