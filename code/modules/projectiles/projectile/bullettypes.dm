@@ -50,7 +50,6 @@
 	sharp = FALSE
 	step_delay = 0.65
 	recoil = 5
-	embed_mult = 1.5
 
 /obj/item/projectile/bullet/pistol_35/rubber
 	name = "rubber bullet"
@@ -183,7 +182,6 @@
 	sharp = FALSE
 	step_delay = 0.5
 	recoil = 7
-	embed_mult = 1.5
 
 /obj/item/projectile/bullet/magnum_40/rubber
 	name = "rubber bullet"
@@ -323,7 +321,6 @@
 	can_ricochet = FALSE
 	step_delay = 0.8
 	recoil = 14
-	embed_mult = 2
 
 /obj/item/projectile/bullet/kurtz_50/hv
 	name = "AV bullet"
@@ -421,7 +418,6 @@
 	sharp = FALSE
 	step_delay = 0.6
 	recoil = 5
-	embed_mult = 2 //We suck and get blocked by must armor
 
 /obj/item/projectile/bullet/light_rifle_257/incend
 	name = "incendiary bullet"
@@ -523,7 +519,6 @@
 	sharp = FALSE
 	step_delay = 0.8
 	recoil = 10
-	embed_mult = 1.5
 
 /obj/item/projectile/bullet/rifle_75/incend
 	name = "incendiary bullet"
@@ -605,7 +600,6 @@
 	sharp = FALSE
 	step_delay = 0.5
 	recoil = 16
-	embed_mult = 2
 
 /obj/item/projectile/bullet/heavy_rifle_408/incend
 	name = "incendiary bullet"
@@ -684,7 +678,6 @@
 	affective_ap_range = 9
 	penetrating = -5
 	recoil = 20
-	embed_mult = 3 //this round is designed for this.
 
 /obj/item/projectile/bullet/antim/incend
 	damage_types = list(BURN = 45)
@@ -765,7 +758,6 @@
 	affective_damage_range = 8
 	affective_ap_range = 8 //Anti-Air
 	recoil = 2
-	embed_mult = 1.5
 
 /obj/item/projectile/bullet/pellet/mech_flak/military //Scatter-Shot Autocannon
 	damage_types = list(BRUTE = 22)
@@ -1194,7 +1186,6 @@
 	affective_ap_range = 7
 	create_type = null
 	recoil = 10
-	embed_mult = 1.5
 
 
 /obj/item/projectile/bullet/reusable/rod_bolt/rcd
@@ -1221,7 +1212,6 @@
 	affective_damage_range = 7
 	affective_ap_range = 7
 	create_type = null
-	embed_mult = 2
 
 
 /obj/item/projectile/bullet/reusable/arrow
