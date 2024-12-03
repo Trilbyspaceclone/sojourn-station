@@ -386,6 +386,7 @@
 	step_delay = 0.9
 	recoil = 4
 	ignition_source = FALSE
+	embed_mult = 1.5
 
 /obj/item/projectile/bullet/light_rifle_257/rubber/pepperball
 	name = "pepperball"
@@ -489,6 +490,7 @@
 	step_delay = 0.9
 	recoil = 6
 	ignition_source = FALSE
+	embed_mult = 1.25
 
 /obj/item/projectile/bullet/rifle_75/rubber/soporific
 	name = "soporific coated rubber bullet"
@@ -565,6 +567,7 @@
 	step_delay = 0.9
 	recoil = 14
 	ignition_source = FALSE
+	embed_mult = 1.5
 
 /obj/item/projectile/bullet/heavy_rifle_408/practice
 	name = "practice bullet"
